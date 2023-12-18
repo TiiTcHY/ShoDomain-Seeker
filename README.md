@@ -1,5 +1,4 @@
 # ShoDomain-Seeker
-ShoDomain Seeker
 
 ShoDomain Seeker is a Python script designed to facilitate the discovery of subdomains associated with a given domain using the Shodan API. This tool is particularly useful for security professionals, penetration testers, and anyone involved in domain reconnaissance.
 
@@ -15,14 +14,14 @@ Shodan API Key (Sign up for a Shodan account and obtain your API key [here](http
 Clone the repository:
 
 ```
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/TiiTcHY/ShoDomain-Seeker.git
+cd ShoDomain-Seeker
 ```
-Running the Script
+### Running the Script
 ```
 python shodan_subdomain_seeker.py -d <target_domain> -s <your_shodan_api_key>
 ```
-Options:
+### Options:
 
 -d, --domain: Specify the target domain to find subdomains.
 -s, --shodan_key: Provide your Shodan API key.
@@ -43,8 +42,8 @@ python shodan_subdomain_seeker.py -d example.com -s YOUR_SHODAN_API_KEY -o outpu
 python shodan_subdomain_seeker.py --help
 ```
 
-##Acknowledgments
-ASCII art in the script generated using text-image.com.
+## Acknowledgments
+ASCII art in the script generated using [text-image.com](text-image.com).
 
 
 

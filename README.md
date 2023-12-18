@@ -23,10 +23,10 @@ python shodan_subdomain_seeker.py -d <target_domain> -s <your_shodan_api_key>
 ```
 ### Options:
 
--d, --domain: Specify the target domain to find subdomains.
--s, --shodan_key: Provide your Shodan API key.
--v, --verbose: Show detailed output.
--o, --file_name: Save results to a file.
+- -d, --domain: Specify the target domain to find subdomains.
+- -s, --shodan_key: Provide your Shodan API key.
+- -v, --verbose: Show detailed output.
+- -o, --file_name: Save results to a file.
 
 ## Examples
 ### Basic Usage:

@@ -1,6 +1,5 @@
 import argparse
 import requests
-import json
 import sys
 from colorama import init, Fore
 

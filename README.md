@@ -16,6 +16,7 @@ Clone the repository:
 ```
 git clone https://github.com/TiiTcHY/ShoDomain-Seeker.git
 cd ShoDomain-Seeker
+pip install -r requirements.txt
 ```
 ### Running the Script
 ```
